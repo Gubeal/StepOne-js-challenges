@@ -5,3 +5,5 @@
 
 // // Exemplo de output: Saty is 4 code units long
 
+let username = 'Teste';
+console.log(`${username} is ${username.length} code units long`);
