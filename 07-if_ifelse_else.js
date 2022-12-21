@@ -31,17 +31,20 @@ num1 is equal to num2: num 1 é igual ao num2
 // e deve aparecer essa resposta:
 
 function findLargest(num1, num2) {
-    if () {
-        console.log();
+    if (num1 > num2) {
+        console.log(`${num1} is the largest number`);
     }
-    else if () {
-        console.log();
+    else if (num2 > num1) {
+        console.log(`${num2} is the largest number`);
     }
-    else {
-        console.log();
+    else if (num1 == num2) {
+        console.log(`${num1} is equal ${num2}`);
     }
 }
 
-console.log(findLargest(16, 45)); //"45 the largest number"
-console.log(findLargest(34, 10)); //"34 is the largest number"
-console.log(findLargest(42, 42)); //"42 is equal to 42"
+console.log('16, 45:');
+findLargest(16, 45); //"45 the largest number"
+console.log('34, 10:');
+findLargest(34, 10); //"34 is the largest number"
+console.log('42, 42:');
+findLargest(42, 42); //"42 is equal to 42"
