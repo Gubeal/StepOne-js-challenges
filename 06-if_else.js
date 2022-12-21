@@ -7,3 +7,17 @@
 // Se não, deve mostrar no console a seguinte frase:
 
 // "You didn't passed the exam!"
+
+function examResult(note) {
+    const limitNote = 75;
+
+    if (note >= limitNote) {
+        return "You passed the exam!";
+    } else {
+        return "You didn't passed the exam!";
+    }
+}
+
+console.log(examResult(74));
+console.log(examResult(75));
+console.log(examResult(76));
