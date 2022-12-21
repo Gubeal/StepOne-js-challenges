@@ -5,10 +5,13 @@
 
 // Outros exemplos:
 // `Maria Silva` => `M.S.`
-// `Pedro Pedroso`  => `P.P`
+// `Pedro Pedroso`  => `P.P.`
 
-function abbrevName(firstName, lastName){
-	
+function abbrevName(firstName, lastName) {
+	'teste'.charAt
 
-	return;
+	return `${firstName.charAt(0)}.${lastName.charAt(0)}.`;
 }
+
+console.log(abbrevName('Maria', 'Silva'));
+console.log(abbrevName('Pedro', 'Pedroso'));
